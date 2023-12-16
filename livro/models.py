@@ -9,6 +9,9 @@ class Categoria(models.Model):
 
     def __str__(self):
         return self.nome
+    
+class Emprestimos(models.Model):
+    pass
 
 
 class Livros(models.Model):
